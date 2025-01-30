@@ -525,14 +525,15 @@ img {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  padding: 16px 8px;
-}
-
-.footer-input::placeholder {
+  padding-left: 16px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-form-btn {
@@ -552,6 +553,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer-form-icon {
